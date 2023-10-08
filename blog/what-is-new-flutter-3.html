@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172730068-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-172730068-1');
+	</script>
+
+    <title>2022年 Flutter 3 誕生了!  有哪些吸引人的新特性?</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="尼尼研究室, 尼尼的研究室, python, 程式交易,股票,投資,flutter教學,flutter教程,flutter學習,flutter課程,flutter中文,flutter,dart language,mobile apps,android app,ios app, web app, windows app, macOS app">
+    <meta name="author" content="尼尼研究室Nel's Studio">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <!-- FontAwesome JS-->
+	<script defer src="../assets/fontawesome/js/all.min.js"></script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/index.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../assets/plugins/highlight/styles/monokai-sublime.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../assets/css/theme-8.css">
+    
+
+</head> 
+
+<body>
+    
+    <header class="header text-center">
+		<link rel="canonical" href="https://nelsstudio.blogspot.com/2022/07/2022-flutter-3-what-is-new-on-flutter-30.html" />
+	    <h1 class="blog-name pt-lg-4 mb-0">
+			<a class="no-text-decoration" href="../index.html">
+				尼尼研究室Nel's Studio
+		    </a>
+		</h1>
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../assets/images/profile.jpg" alt="image" >			
+					
+					<div class="bio mb-3">介紹 Intro
+						<br><a href="../about.html">Find out more about me</a>
+					</div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				
+				<!-- 左方連結 -->
+				<ul class="navbar-nav flex-column text-start">
+					<li class="nav-item">
+					    <a class="nav-link" href="../index.html"><i class="fas fa-home fa-fw me-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="what-is-new-flutter-3.html"><i class="fas fa-bookmark fa-fw me-2"></i>Blog Post</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="../about.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="../resource.html"><i class="fas fa-user fa-fw me-2"></i>resource</a>
+					</li>
+				</ul>
+				
+				<div class="my-2 my-md-3">
+				    <button class="btn btn-success"  onclick="touch_form()">Get in Touch 聯絡</button>
+				</div>
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper bg-dark text-white">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2 text-white">2022年 Flutter 3 誕生了!  有哪些吸引人的新特性?
+                    </h2>
+				    <div class="meta mb-3"><span class="date">2022-07-07</span></div>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="#"><img class="img-fluid" src="../assets/images/Flutter-3-768x422.png" alt="image"></a>
+				        <figcaption class="mt-2 text-center image-caption">Image Credit: <a class="theme-link" href="#" target="_blank"></a></figcaption>
+				    </figure>
+				    <h3 class="mt-5 mb-3 text-white">什麼是Flutter?</h3>
+
+                    <p>由Google大神的團隊發展出來的跨平台架構。最早是主打跨 Android App 與 iOS App 兩個平台，後來漸漸的也完成了 Windows, ChromeOS, Mac, Linux 等作業系統平台。</p>
+                    <p> 如同 Flutter 首頁自己所描述:</p>
+                        
+					<blockquote cite="https://flutter.dev/">
+						Flutter transforms the app development process. Build, test, and deploy beautiful mobile, web, desktop, and embedded apps from a single codebase.
+					</blockquote>
+					
+					<p></p>Flutter們將轉化整個app的發展過程。建構，測試，布署美麗的行動應用，網頁應用，桌機應用，甚至是崁入式系統應用，都來自同單一個程式代碼庫。</p>
+					
+					<p>Flutter官網總結三個主要的特色：Fast(性能快速), Productive(高度生產性), Flexible(極具彈性)</p>
+					
+					<p>多平台特性：任何螢幕都可以觸及，無遠弗屆!</p>
+					<p>開發者經驗：整體改變工作流程，工作革命!</p>
+					<p>穩定與可靠：經過Google團隊發展開發，並與全世界眾多開發者一同打造</p>
+					
+					<p>什麼APP用了Flutter? Google Pay…..etc</p>
+                        
+					<h3 class="mt-5 mb-3 text-white">全球開源軟體開發</h3>
+					
+					
+					
+					<h3 class="mt-5 mb-3 text-white">Flutter 如何開發?</h3>
+					<p>使用全新開發的語言  Dart  來做為開發工具
+					
+					<h3 class="mt-5 mb-3 text-white">Flutter 的優勢，優點與特色</h3>
+					
+					
+					<h3 class="mt-5 mb-3 text-white">Flutter的對手?</h3>
+					
+					<h3 class="mt-5 mb-3 text-white">Flutter的小歷史</h3>
+					https://medium.com/flutter/introducing-flutter-3-5eb69151622f
+                        
+                        
+					<h3 class="mt-5 mb-3 text-white">Flutter 3 有甚麼新玩意?</h3>
+					<p>Flutter 3
+					之前的 Flutter 可以支援 iOS, Android, 網頁, Windows 等平台，而最新的 Flutter 3.0 則是新增了，穩定支援 macOS 與 linux apps 的應用程式。</p>
+					
+					<figure class="blog-banner">
+						<a href="#"><img class="img-fluid" src="../assets/images/flutter-homepage-2022-07-07_162026.png" alt="image"></a>
+						<figcaption class="mt-2 text-center image-caption">Image Credit:Flutter Homepage <a class="theme-link" href="#" target="_blank"></a></figcaption>
+					</figure>
+
+					<p>並且 macOS 也可支援 Intel 與 新一代的 Apple Silicon 晶片，並且直接以原生的形式在兩種晶片平台上執行。</p>
+					
+					<p>Linux應用程式的方面也與C團隊合作!</p>
+					
+					
+					<p>
+						Material Design 3 在本次版本中也大幅度的完整化，幫助開發者可以利用跨平台的設計，提供給開發者，各式各樣，繽紛有趣的顏色，還有最新版本的視覺元素。
+					</p>
+                        
+					<h3 class="mt-5 mb-3 text-white">Dart 2.17 新特色</h3>
+					<p>
+						...
+					</p>
+					<h3 class="mt-5 mb-3 text-white">Firebase 與 Flutter 整合</h3>
+					<p>
+						...
+					</p>
+					<button type="button" class="btn btn-primary">Primary</button>
+					<button type="button" class="btn btn-secondary">Secondary</button>
+					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-danger">Danger</button>
+					<button type="button" class="btn btn-warning">Warning</button>
+					<button type="button" class="btn btn-info">Info</button>
+					<button type="button" class="btn btn-light">Light</button>
+					<button type="button" class="btn btn-dark">Dark</button>
+
+			    </div>
+		    </div><!--//container-->
+	    </article>
+	    
+		<script type="module" src="./assets/js/myfooter.js?1111"></script>
+		<div id="app">
+			<my-footer></my-footer>
+		</div>
+		
+	    <!-- <footer class="footer text-center py-2 theme-bg-dark"> -->
+		    <!-- <p>尼尼研究室 Nel's Studio (C) Copyright Reversed 版權所有，請勿任意轉載</p> -->
+	        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <!-- <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+	    </footer> -->
+    
+    </div><!--//main-wrapper-->
+    
+
+        
+       
+    <!-- Javascript -->          
+    <script src="../assets/plugins/popper.min.js"></script> 
+    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+
+    <!-- Custom JS -->
+    <script src="../assets/js/blog.js"></script> 
+
+</body>
+</html> 
+
