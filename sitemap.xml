@@ -9,38 +9,133 @@
 
 <url>
   <loc>https://spyspy.github.io/</loc>
-  <lastmod>2023-09-10T13:17:29+00:00</lastmod>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://spyspy.github.io/index.html</loc>
-  <lastmod>2023-09-10T13:17:29+00:00</lastmod>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spyspy.github.io/about.html</loc>
-  <lastmod>2023-09-10T13:17:29+00:00</lastmod>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spyspy.github.io/blog/what-is-new-flutter-3.html</loc>
-  <lastmod>2023-09-10T13:17:29+00:00</lastmod>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/resource.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spyspy.github.io/react/index.html</loc>
-  <lastmod>2023-09-10T13:17:29+00:00</lastmod>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://spyspy.github.io/angular/index.html</loc>
-  <lastmod>2023-09-10T13:17:29+00:00</lastmod>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://spyspy.github.io/vue/index.html</loc>
-  <lastmod>2023-09-10T13:17:29+00:00</lastmod>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/cleanblog/index.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/bloghomepage/index.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/bloghomepage/post-page.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/index.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/business/index.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/cleanblog/about.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/cleanblog/post.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/cleanblog/contact.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/layout-static.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/layout-sidenav-light.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/login.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/register.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/password.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/401.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/404.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/500.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/charts.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spyspy.github.io/test-template/admin/tables.html</loc>
+  <lastmod>2023-10-08T16:30:17+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
