@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue 雙向綁定</title>
+</head>
+<body>
+    <head>
+        <h2>Vue Events Binding in Action</h2>
+        <h2> Vue 事件綁定，雙向綁定(two-way binding)範例</h2>
+    </head>
+    <hr>
+    <section id="myevent">
+        Name:<input type="text" v-model="name"><br>
+        LastName:<input type="text" v-model="lastName"><br>
+        <button v-on:click="resetInput">Reset Input</button>
+
+        <p>Output Name(用computed)::: {{outputFullnameComputed}}</p> <!-- 只要畫面有變動，這個方法就會被執行!!!-->
+        <p>Output Name(用watch)::: {{fullName}}</p> <!-- watch-->
+    </section>
+    <hr>
+</body>
+<!--位置很重要: 放在上面就讀不到mysection -->
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> <!-- VUE引入-->
+<script src="./app.js"></script><!-- 自訂義VUE引入-->
+<!--BOOTSTRAP-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
